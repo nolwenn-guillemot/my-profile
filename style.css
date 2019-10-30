@@ -1,0 +1,86 @@
+body {
+	background-color: rgba(252,245,158,100%);
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+.container {
+  width: 800px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.card-white {
+	background-color:  white;
+	border-radius: 4px;
+	box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+	padding: 5px 5px;
+	margin: 20px;
+}
+
+h1{
+	color: rgb(1,0,89);
+	font-family: 'Oswald', sans-serif;
+	font size: 70px
+	font weight	: 200
+}
+
+h1, h2, h3{
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	line-height: 1.8;
+	color: black;
+	text-align: center;
+	margin: 20px
+}
+
+#img-circle {
+	width: 300px;
+	height: 370px;
+	border-radius: 50%;
+	border : 2px solid rgba(255,122,138,90%);
+}
+
+.ecriture-bleu{
+	color: #010059;
+	text-decoration: underline;
+}
+
+.ecriture-rose{
+	color: rgb(255,122,138);
+}
+
+.fab {
+	color: #010059;
+	font-size: 60px;
+	padding:10px 10px;
+}
+
+.fas{
+	padding:10px 10px;
+}
+
+
+div{
+	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
